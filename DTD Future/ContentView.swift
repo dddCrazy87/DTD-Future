@@ -54,6 +54,18 @@ struct ContentView: View {
             case "FloorB1_goal":
                 FloorB1_goal()
                     .environmentObject(globalState)
+            case "Floor1_cross":
+                Floor1_cross()
+                    .environmentObject(globalState)
+            case "Floor1_classrooms":
+                Floor1_classrooms()
+                    .environmentObject(globalState)
+            case "Floor1_drawing_wall":
+                Floor1_drawing_wall()
+                    .environmentObject(globalState)
+            case "Floor1_car_game":
+                Floor1_car_game()
+                    .environmentObject(globalState)
             default:
                 Text(globalState.viewController)
             }

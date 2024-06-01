@@ -29,6 +29,10 @@
 		42051C4C2C0BA4FF006B5BB4 /* FloorB1_cross2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C4B2C0BA4FF006B5BB4 /* FloorB1_cross2.swift */; };
 		42051C4E2C0BA586006B5BB4 /* FloorB1_cross2_right.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C4D2C0BA586006B5BB4 /* FloorB1_cross2_right.swift */; };
 		42051C502C0BA5ED006B5BB4 /* FloorB1_goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C4F2C0BA5ED006B5BB4 /* FloorB1_goal.swift */; };
+		42051C522C0BA8ED006B5BB4 /* Floor1_cross.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C512C0BA8ED006B5BB4 /* Floor1_cross.swift */; };
+		42051C542C0BA99E006B5BB4 /* Floor1_classrooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C532C0BA99E006B5BB4 /* Floor1_classrooms.swift */; };
+		42051C562C0BAA30006B5BB4 /* Floor1_car_game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C552C0BAA30006B5BB4 /* Floor1_car_game.swift */; };
+		42051C582C0BAA5F006B5BB4 /* Floor1_drawing_wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C572C0BAA5F006B5BB4 /* Floor1_drawing_wall.swift */; };
 		420A7E8A2C0867EA00527A30 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 420A7E892C0867EA00527A30 /* RealityKitContent */; };
 		420A7E8C2C0867EA00527A30 /* DTD_FutureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A7E8B2C0867EA00527A30 /* DTD_FutureApp.swift */; };
 		420A7E8E2C0867EA00527A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A7E8D2C0867EA00527A30 /* ContentView.swift */; };
@@ -76,6 +80,10 @@
 		42051C4B2C0BA4FF006B5BB4 /* FloorB1_cross2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorB1_cross2.swift; sourceTree = "<group>"; };
 		42051C4D2C0BA586006B5BB4 /* FloorB1_cross2_right.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorB1_cross2_right.swift; sourceTree = "<group>"; };
 		42051C4F2C0BA5ED006B5BB4 /* FloorB1_goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorB1_goal.swift; sourceTree = "<group>"; };
+		42051C512C0BA8ED006B5BB4 /* Floor1_cross.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor1_cross.swift; sourceTree = "<group>"; };
+		42051C532C0BA99E006B5BB4 /* Floor1_classrooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor1_classrooms.swift; sourceTree = "<group>"; };
+		42051C552C0BAA30006B5BB4 /* Floor1_car_game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor1_car_game.swift; sourceTree = "<group>"; };
+		42051C572C0BAA5F006B5BB4 /* Floor1_drawing_wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor1_drawing_wall.swift; sourceTree = "<group>"; };
 		420A7E842C0867EA00527A30 /* DTD Future.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DTD Future.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		420A7E882C0867EA00527A30 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		420A7E8B2C0867EA00527A30 /* DTD_FutureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTD_FutureApp.swift; sourceTree = "<group>"; };
@@ -143,6 +151,10 @@
 				42051C4B2C0BA4FF006B5BB4 /* FloorB1_cross2.swift */,
 				42051C4D2C0BA586006B5BB4 /* FloorB1_cross2_right.swift */,
 				42051C4F2C0BA5ED006B5BB4 /* FloorB1_goal.swift */,
+				42051C512C0BA8ED006B5BB4 /* Floor1_cross.swift */,
+				42051C532C0BA99E006B5BB4 /* Floor1_classrooms.swift */,
+				42051C572C0BAA5F006B5BB4 /* Floor1_drawing_wall.swift */,
+				42051C552C0BAA30006B5BB4 /* Floor1_car_game.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -337,6 +349,7 @@
 			files = (
 				424531A62C0B645600B47561 /* PlayerModel.swift in Sources */,
 				42051C4C2C0BA4FF006B5BB4 /* FloorB1_cross2.swift in Sources */,
+				42051C562C0BAA30006B5BB4 /* Floor1_car_game.swift in Sources */,
 				42051C4E2C0BA586006B5BB4 /* FloorB1_cross2_right.swift in Sources */,
 				424531AC2C0B64CE00B47561 /* VideoWatchingCoordinator.swift in Sources */,
 				42051C442C0B9EA0006B5BB4 /* FloorB1_hobby.swift in Sources */,
@@ -344,7 +357,10 @@
 				42051C232C0B6C55006B5BB4 /* GlobalState.swift in Sources */,
 				420A7E8E2C0867EA00527A30 /* ContentView.swift in Sources */,
 				42051C482C0BA12C006B5BB4 /* FloorB1_cross1.swift in Sources */,
+				42051C522C0BA8ED006B5BB4 /* Floor1_cross.swift in Sources */,
 				42051C262C0B79EC006B5BB4 /* DoorView.swift in Sources */,
+				42051C542C0BA99E006B5BB4 /* Floor1_classrooms.swift in Sources */,
+				42051C582C0BAA5F006B5BB4 /* Floor1_drawing_wall.swift in Sources */,
 				42051C4A2C0BA2B0006B5BB4 /* FloorB1_fail_door.swift in Sources */,
 				424531A42C0B643300B47561 /* Video.swift in Sources */,
 				424531A82C0B647F00B47561 /* PlayerView.swift in Sources */,
