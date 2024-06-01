@@ -26,6 +26,7 @@ struct ContentView: View {
                     }
                 Spacer()
             }
+            
         }
         else {
             switch globalState.viewController {
@@ -34,6 +35,15 @@ struct ContentView: View {
                     .environmentObject(globalState)
             case "FloorG":
                 FloorGView()
+                    .environmentObject(globalState)
+            case "FloorB1_hobby":
+                FloorB1_hobby()
+                    .environmentObject(globalState)
+            case "FloorB1_cross1":
+                FloorB1_cross1()
+                    .environmentObject(globalState)
+            case "FloorB1_fail_door":
+                FloorB1_fail_door()
                     .environmentObject(globalState)
             default:
                 Text(globalState.viewController)
