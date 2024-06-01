@@ -67,7 +67,7 @@ struct FloorB1_cross1: View {
                         ProgressView()
                     }
                     .onTapGesture {
-                        updateViewController(globalState, view: "FloorB1_cross1", video:"FloorB1_cross1 to fail door")
+                        updateViewController(globalState, view: "FloorB1_cross2", video:"FloorB1_cross1 to cross2")
                         showAnimToggle(globalState)
                     }
                 }
