@@ -6,12 +6,14 @@ import SwiftUI
 class GlobalState: ObservableObject {
     static let shared = GlobalState()
     @Published var viewController = "Door"
+    @Published var videoName = ""
     @Published var showAnim = false
     private init() {}
 }
 
-func updateViewController(_ globalState: GlobalState, newValue: String) {
-    globalState.viewController = newValue
+func updateViewController(_ globalState: GlobalState, view: String, video: String) {
+    globalState.viewController = view
+    globalState.videoName = video
 }
 
 func showAnimToggle(_ globalState: GlobalState) {

@@ -36,7 +36,7 @@ struct DoorView: View {
                         ProgressView()
                     }
                     .onTapGesture {
-                        updateViewController(globalState, newValue: "FloorG")
+                        updateViewController(globalState, view: "FloorG", video: "Door to FloorG")
                         showAnimToggle(globalState)
                     }
                     

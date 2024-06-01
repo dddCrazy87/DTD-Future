@@ -37,7 +37,7 @@ struct FloorGView: View {
                         ProgressView()
                     }
                     .onTapGesture {
-                        updateViewController(globalState, newValue: "FloorB1_hobby")
+                        updateViewController(globalState, view: "FloorB1_hobby", video: "FloorG to FloorB1")
                         showAnimToggle(globalState)
                     }
                     
@@ -66,7 +66,7 @@ struct FloorGView: View {
                         ProgressView()
                     }
                     .onTapGesture {
-                        updateViewController(globalState, newValue: "Floor1_cross")
+                        updateViewController(globalState, view: "Floor1_cross", video:"FloorG to Floor1 cross")
                         showAnimToggle(globalState)
                     }
                 }

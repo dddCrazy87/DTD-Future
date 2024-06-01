@@ -10,7 +10,18 @@
 		42051C232C0B6C55006B5BB4 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C222C0B6C55006B5BB4 /* GlobalState.swift */; };
 		42051C262C0B79EC006B5BB4 /* DoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C252C0B79EC006B5BB4 /* DoorView.swift */; };
 		42051C282C0B7AD6006B5BB4 /* FloorGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051C272C0B7AD6006B5BB4 /* FloorGView.swift */; };
-		42051C2A2C0B8133006B5BB4 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C292C0B8133006B5BB4 /* test.mp4 */; };
+		42051C372C0B94AB006B5BB4 /* FloorB1 to FloorG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C2B2C0B94A8006B5BB4 /* FloorB1 to FloorG.mp4 */; };
+		42051C382C0B94AB006B5BB4 /* FloorG to FloorB1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C2C2C0B94A8006B5BB4 /* FloorG to FloorB1.mp4 */; };
+		42051C392C0B94AB006B5BB4 /* FloorB1_Cross2 to right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C2D2C0B94A8006B5BB4 /* FloorB1_Cross2 to right.mp4 */; };
+		42051C3A2C0B94AB006B5BB4 /* Floor1_classroom to drawing wall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C2E2C0B94A9006B5BB4 /* Floor1_classroom to drawing wall.mp4 */; };
+		42051C3B2C0B94AB006B5BB4 /* Floor1 cross to classrooms.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C2F2C0B94A9006B5BB4 /* Floor1 cross to classrooms.mp4 */; };
+		42051C3C2C0B94AB006B5BB4 /* Door to FloorG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C302C0B94A9006B5BB4 /* Door to FloorG.mp4 */; };
+		42051C3D2C0B94AB006B5BB4 /* FloorB1_Cross2 to Goal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C312C0B94A9006B5BB4 /* FloorB1_Cross2 to Goal.mp4 */; };
+		42051C3E2C0B94AB006B5BB4 /* FloorB1_cross1 to cross2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C322C0B94AA006B5BB4 /* FloorB1_cross1 to cross2.mp4 */; };
+		42051C3F2C0B94AB006B5BB4 /* Floor1 drawing to car game.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C332C0B94AA006B5BB4 /* Floor1 drawing to car game.mp4 */; };
+		42051C402C0B94AB006B5BB4 /* FloorB1_fail.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C342C0B94AA006B5BB4 /* FloorB1_fail.mp4 */; };
+		42051C412C0B94AB006B5BB4 /* FloorG to Floor1 cross.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C352C0B94AB006B5BB4 /* FloorG to Floor1 cross.mp4 */; };
+		42051C422C0B94AB006B5BB4 /* FloorB1_hobby to Cross1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42051C362C0B94AB006B5BB4 /* FloorB1_hobby to Cross1.mp4 */; };
 		420A7E8A2C0867EA00527A30 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 420A7E892C0867EA00527A30 /* RealityKitContent */; };
 		420A7E8C2C0867EA00527A30 /* DTD_FutureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A7E8B2C0867EA00527A30 /* DTD_FutureApp.swift */; };
 		420A7E8E2C0867EA00527A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A7E8D2C0867EA00527A30 /* ContentView.swift */; };
@@ -39,7 +50,18 @@
 		42051C222C0B6C55006B5BB4 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
 		42051C252C0B79EC006B5BB4 /* DoorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorView.swift; sourceTree = "<group>"; };
 		42051C272C0B7AD6006B5BB4 /* FloorGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorGView.swift; sourceTree = "<group>"; };
-		42051C292C0B8133006B5BB4 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		42051C2B2C0B94A8006B5BB4 /* FloorB1 to FloorG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FloorB1 to FloorG.mp4"; sourceTree = "<group>"; };
+		42051C2C2C0B94A8006B5BB4 /* FloorG to FloorB1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FloorG to FloorB1.mp4"; sourceTree = "<group>"; };
+		42051C2D2C0B94A8006B5BB4 /* FloorB1_Cross2 to right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FloorB1_Cross2 to right.mp4"; sourceTree = "<group>"; };
+		42051C2E2C0B94A9006B5BB4 /* Floor1_classroom to drawing wall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Floor1_classroom to drawing wall.mp4"; sourceTree = "<group>"; };
+		42051C2F2C0B94A9006B5BB4 /* Floor1 cross to classrooms.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Floor1 cross to classrooms.mp4"; sourceTree = "<group>"; };
+		42051C302C0B94A9006B5BB4 /* Door to FloorG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Door to FloorG.mp4"; sourceTree = "<group>"; };
+		42051C312C0B94A9006B5BB4 /* FloorB1_Cross2 to Goal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FloorB1_Cross2 to Goal.mp4"; sourceTree = "<group>"; };
+		42051C322C0B94AA006B5BB4 /* FloorB1_cross1 to cross2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FloorB1_cross1 to cross2.mp4"; sourceTree = "<group>"; };
+		42051C332C0B94AA006B5BB4 /* Floor1 drawing to car game.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Floor1 drawing to car game.mp4"; sourceTree = "<group>"; };
+		42051C342C0B94AA006B5BB4 /* FloorB1_fail.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FloorB1_fail.mp4; sourceTree = "<group>"; };
+		42051C352C0B94AB006B5BB4 /* FloorG to Floor1 cross.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FloorG to Floor1 cross.mp4"; sourceTree = "<group>"; };
+		42051C362C0B94AB006B5BB4 /* FloorB1_hobby to Cross1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FloorB1_hobby to Cross1.mp4"; sourceTree = "<group>"; };
 		420A7E842C0867EA00527A30 /* DTD Future.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DTD Future.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		420A7E882C0867EA00527A30 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		420A7E8B2C0867EA00527A30 /* DTD_FutureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTD_FutureApp.swift; sourceTree = "<group>"; };
@@ -79,7 +101,18 @@
 		42051C1C2C0B66C9006B5BB4 /* VideoDatas */ = {
 			isa = PBXGroup;
 			children = (
-				42051C292C0B8133006B5BB4 /* test.mp4 */,
+				42051C302C0B94A9006B5BB4 /* Door to FloorG.mp4 */,
+				42051C2F2C0B94A9006B5BB4 /* Floor1 cross to classrooms.mp4 */,
+				42051C332C0B94AA006B5BB4 /* Floor1 drawing to car game.mp4 */,
+				42051C2E2C0B94A9006B5BB4 /* Floor1_classroom to drawing wall.mp4 */,
+				42051C2B2C0B94A8006B5BB4 /* FloorB1 to FloorG.mp4 */,
+				42051C322C0B94AA006B5BB4 /* FloorB1_cross1 to cross2.mp4 */,
+				42051C312C0B94A9006B5BB4 /* FloorB1_Cross2 to Goal.mp4 */,
+				42051C2D2C0B94A8006B5BB4 /* FloorB1_Cross2 to right.mp4 */,
+				42051C342C0B94AA006B5BB4 /* FloorB1_fail.mp4 */,
+				42051C362C0B94AB006B5BB4 /* FloorB1_hobby to Cross1.mp4 */,
+				42051C352C0B94AB006B5BB4 /* FloorG to Floor1 cross.mp4 */,
+				42051C2C2C0B94A8006B5BB4 /* FloorG to FloorB1.mp4 */,
 			);
 			path = VideoDatas;
 			sourceTree = "<group>";
@@ -118,7 +151,8 @@
 				420A7E8B2C0867EA00527A30 /* DTD_FutureApp.swift */,
 				42051C222C0B6C55006B5BB4 /* GlobalState.swift */,
 				420A7E8D2C0867EA00527A30 /* ContentView.swift */,
-				424531A22C0B642000B47561 /* Video */,
+				42051C1C2C0B66C9006B5BB4 /* VideoDatas */,
+				424531A22C0B642000B47561 /* VideoScripts */,
 				42051C242C0B79D2006B5BB4 /* Scenes */,
 				420A7E8F2C0867EA00527A30 /* ImmersiveView.swift */,
 				420A7E912C0867EA00527A30 /* Assets.xcassets */,
@@ -152,17 +186,16 @@
 			path = "DTD FutureTests";
 			sourceTree = "<group>";
 		};
-		424531A22C0B642000B47561 /* Video */ = {
+		424531A22C0B642000B47561 /* VideoScripts */ = {
 			isa = PBXGroup;
 			children = (
-				42051C1C2C0B66C9006B5BB4 /* VideoDatas */,
 				424531A32C0B643300B47561 /* Video.swift */,
 				424531A52C0B645600B47561 /* PlayerModel.swift */,
 				424531A72C0B647F00B47561 /* PlayerView.swift */,
 				424531A92C0B64B900B47561 /* VideoWatchingActivity.swift */,
 				424531AB2C0B64CE00B47561 /* VideoWatchingCoordinator.swift */,
 			);
-			path = Video;
+			path = VideoScripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +282,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42051C3D2C0B94AB006B5BB4 /* FloorB1_Cross2 to Goal.mp4 in Resources */,
+				42051C3B2C0B94AB006B5BB4 /* Floor1 cross to classrooms.mp4 in Resources */,
+				42051C3C2C0B94AB006B5BB4 /* Door to FloorG.mp4 in Resources */,
+				42051C412C0B94AB006B5BB4 /* FloorG to Floor1 cross.mp4 in Resources */,
+				42051C3F2C0B94AB006B5BB4 /* Floor1 drawing to car game.mp4 in Resources */,
 				420A7E952C0867EA00527A30 /* Preview Assets.xcassets in Resources */,
-				42051C2A2C0B8133006B5BB4 /* test.mp4 in Resources */,
+				42051C382C0B94AB006B5BB4 /* FloorG to FloorB1.mp4 in Resources */,
+				42051C3E2C0B94AB006B5BB4 /* FloorB1_cross1 to cross2.mp4 in Resources */,
 				420A7E922C0867EA00527A30 /* Assets.xcassets in Resources */,
+				42051C372C0B94AB006B5BB4 /* FloorB1 to FloorG.mp4 in Resources */,
+				42051C392C0B94AB006B5BB4 /* FloorB1_Cross2 to right.mp4 in Resources */,
+				42051C3A2C0B94AB006B5BB4 /* Floor1_classroom to drawing wall.mp4 in Resources */,
+				42051C422C0B94AB006B5BB4 /* FloorB1_hobby to Cross1.mp4 in Resources */,
+				42051C402C0B94AB006B5BB4 /* FloorB1_fail.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

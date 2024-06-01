@@ -13,13 +13,14 @@ struct ContentView: View {
                 Spacer()
                 PlayerView()
                     .onAppear() {
-                        if let filePath = Bundle.main.path(forResource: "test", ofType: "mp4") {
+                        if let filePath = Bundle.main.path(forResource: globalState.videoName, ofType: "mp4") {
                             let fileURL = URL(fileURLWithPath: filePath)
                             let video = Video(id: 1, url: fileURL, title: "Local Video")
                             player.loadVideo(video)
                             player.play()
                         } else {
                             print("Local video file not found.")
+                            showAnimToggle(globalState)
                         }
                         
                     }
