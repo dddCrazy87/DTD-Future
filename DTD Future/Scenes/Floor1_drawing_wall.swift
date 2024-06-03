@@ -49,6 +49,15 @@ struct Floor1_drawing_wall: View {
                 }
             }
         }
+        
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("這是專屬於數位系的白板塗鴉牆。因為大家都很喜歡也很會畫畫，\n所以平常無聊的時候就會在這邊撇個兩筆。")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 

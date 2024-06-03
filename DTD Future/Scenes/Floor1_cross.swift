@@ -49,6 +49,15 @@ struct Floor1_cross: View {
                 }
             }
         }
+        
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("右手邊是數位系的交誼區，下課後大家都會聚在這裡聊天。\n這裡有插座、沙發和電風扇，但是沒有冷氣")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 

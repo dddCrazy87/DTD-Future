@@ -48,6 +48,14 @@ struct FloorB1_cross2_right: View {
                 }
             }
         }
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("沒想到左邊竟然堆滿雜物...")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 

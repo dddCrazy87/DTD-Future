@@ -38,11 +38,20 @@ struct FloorB1_fail_door: View {
                     }
                     .onTapGesture {
                         updateViewController(globalState, view: "FloorB1_cross1", video:"FloorB1_fail")
+                        globalState.play1Xspeed = true
                         showAnimToggle(globalState)
                     }
                     
                     Spacer().frame(width: 300)
                 }
+            }
+        }
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("門的後面究竟是...？")
+                    .font(.largeTitle)
+                    .padding()
             }
         }
     }

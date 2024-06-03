@@ -76,6 +76,15 @@ struct FloorB1_hobby: View {
                 }
             }
         }
+        
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("地下一樓到了！")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 

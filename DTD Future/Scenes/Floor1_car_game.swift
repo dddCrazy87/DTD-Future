@@ -53,15 +53,16 @@ struct Floor1_car_game: View {
         .toolbar {
             ToolbarItemGroup(placement: .bottomOrnament) {
                 
-                Text("完成!")
+                Text("這是一個電動玩具，坐上去會發生什麼事呢？")
                     .font(.largeTitle)
+                    .padding()
                 
                 Button {
                     updateViewController(globalState, view: "Door", video:"none")
                 } label: {
                     Text("回到門外")
                         .font(.largeTitle)
-                    
+                        .padding()
                 }
             }
         }

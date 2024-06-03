@@ -60,6 +60,7 @@ import Observation
             .sink { [weak self] isPlaybackComplete in
                 self?.isPlaybackComplete = isPlaybackComplete
                 GlobalState.shared.showAnim = false
+                GlobalState.shared.play1Xspeed = false
             }
             .store(in: &subscriptions)
 
@@ -146,9 +147,14 @@ import Observation
 
     // MARK: - Transport Control
 
-    func play() {
+    func play3Xspeed() {
         player.play()
         player.rate = 3
+    }
+    
+    func play() {
+        player.play()
+        player.rate = 1.5
     }
 
     func pause() {

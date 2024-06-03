@@ -73,6 +73,15 @@ struct FloorB1_cross1: View {
                 }
             }
         }
+        
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("從地下一樓的電梯走出去後，\n可以看到第一個岔路")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 

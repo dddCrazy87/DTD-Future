@@ -72,6 +72,14 @@ struct FloorGView: View {
                 }
             }
         }
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("這裡是介於地下一樓及一樓之間的「Ｇ樓」\n，也可以稱作電梯平台")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 

@@ -49,6 +49,15 @@ struct FloorB1_goal: View {
                 }
             }
         }
+        
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("再往前就是廁所及雜物間，這就是地下室的全貌\n接著我們回到電梯平台吧！")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 

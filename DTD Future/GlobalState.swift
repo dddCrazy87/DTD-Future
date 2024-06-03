@@ -8,6 +8,7 @@ class GlobalState: ObservableObject {
     @Published var viewController = "Door"
     @Published var videoName = ""
     @Published var showAnim = false
+    @Published var play1Xspeed = false
     private init() {}
 }
 

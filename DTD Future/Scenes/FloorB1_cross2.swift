@@ -48,6 +48,15 @@ struct FloorB1_cross2: View {
                 }
             }
         }
+        
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("這裡是數位系的實驗室和辦公室，\n勤奮向上的好同學都會窩在這裡進行研究")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 

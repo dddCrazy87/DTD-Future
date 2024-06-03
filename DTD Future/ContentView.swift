@@ -17,7 +17,12 @@ struct ContentView: View {
                             let fileURL = URL(fileURLWithPath: filePath)
                             let video = Video(id: 1, url: fileURL, title: "Local Video")
                             player.loadVideo(video)
-                            player.play()
+                            if globalState.play1Xspeed {
+                                player.play()
+                            }
+                            else {
+                                player.play3Xspeed()
+                            }
                         } else {
                             print("Local video file not found.")
                             showAnimToggle(globalState)

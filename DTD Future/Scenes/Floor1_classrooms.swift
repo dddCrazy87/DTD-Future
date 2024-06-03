@@ -50,6 +50,15 @@ struct Floor1_classrooms: View {
                 }
             }
         }
+        
+        .toolbar {
+            ToolbarItemGroup(placement: .bottomOrnament) {
+                
+                Text("這裡是數位系的教室。有AR和VR的未來互動教室，\n也有專屬於Mac系統的電腦教室。")
+                    .font(.largeTitle)
+                    .padding()
+            }
+        }
     }
 }
 
