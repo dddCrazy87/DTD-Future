@@ -23,6 +23,35 @@ struct FloorB1_cross2_right: View {
                 Spacer().frame(height: 200)
                 HStack {
                     
+                    Model3D(named: "Scene", bundle: realityKitContentBundle) {
+                        model in model
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 200, height: 200)
+                            .rotation3DEffect(.degrees(100), axis: (x:0, y:1, z:0))
+                            .phaseAnimator([false, true]) { model, rotationXYZ in
+                                model
+                                    .rotation3DEffect(.degrees(rotationXYZ ? 30:0), axis: (x:5, y:0, z:0))
+                            }
+                        
+                    } placeholder: {
+                        ProgressView()
+                    }
+                    .onTapGesture {
+                        updateViewController(globalState, view: "FloorB1_cross2", video:"none")
+                        showAnimToggle(globalState)
+                    }
+                    
+                        
+                    Spacer().frame(width: 500)
+                    
+                }
+            }
+            
+            VStack {
+                Spacer().frame(height: 200)
+                HStack {
+                    
                     Spacer().frame(width: 300)
                     
                     Model3D(named: "Scene", bundle: realityKitContentBundle) {
@@ -47,6 +76,7 @@ struct FloorB1_cross2_right: View {
                     
                 }
             }
+            
         }
         .toolbar {
             ToolbarItemGroup(placement: .bottomOrnament) {

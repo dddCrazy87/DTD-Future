@@ -25,25 +25,25 @@ struct Floor1_car_game: View {
                     
                     Spacer().frame(width: 450)
                     
-//                    Model3D(named: "Scene", bundle: realityKitContentBundle) {
-//                        model in model
-//                            .resizable()
-//                            .aspectRatio(contentMode: .fit)
-//                            .frame(width: 200, height: 200)
-//                            .rotation3DEffect(.degrees(50), axis: (x:1, y:0, z:0))
-//                            .rotation3DEffect(.degrees(100), axis: (x:0, y:-1, z:0))
-//                            .phaseAnimator([false, true]) { model, rotationXYZ in
-//                                model
-//                                    .rotation3DEffect(.degrees(rotationXYZ ? 30:0), axis: (x:5, y:0, z:0))
-//                            }
-//                        
-//                    } placeholder: {
-//                        ProgressView()
-//                    }
-//                    .onTapGesture {
-//                        updateViewController(globalState, view: "Floor1_drawing wall", video:"Floor1_classroom to drawing wall")
-//                        showAnimToggle(globalState)
-//                    }
+                    Model3D(named: "Scene", bundle: realityKitContentBundle) {
+                        model in model
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 200, height: 200)
+                            .rotation3DEffect(.degrees(50), axis: (x:1, y:0, z:0))
+                            .rotation3DEffect(.degrees(170), axis: (x:0, y:1, z:0))
+                            .phaseAnimator([false, true]) { model, rotationXYZ in
+                                model
+                                    .rotation3DEffect(.degrees(rotationXYZ ? 30:0), axis: (x:5, y:0, z:0))
+                            }
+                        
+                    } placeholder: {
+                        ProgressView()
+                    }
+                    .onTapGesture {
+                        updateViewController(globalState, view: "Floor1_drawing wall", video:"none")
+                        showAnimToggle(globalState)
+                    }
                     
                     
                     
