@@ -10,7 +10,7 @@ import SwiftUI
 struct bad_end: View {
     var body: some View {
         VStack {
-            Text("變成知名便利商店刷條碼的員工，\n下班時間摸魚還被老闆抓包，\n是數位系的恥辱！")
+            Text("變成便利商店刷條碼的員工，\n下班時間摸魚還被老闆抓包，\n是數位系的恥辱！")
                 .font(.largeTitle)
             
             HStack {
