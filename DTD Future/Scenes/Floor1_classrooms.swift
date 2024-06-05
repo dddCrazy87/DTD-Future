@@ -49,44 +49,25 @@ struct Floor1_classrooms: View {
                     
                 }
             }
-            
-            VStack {
-                Spacer().frame(height: 300)
-                HStack {
-                    
-                    Model3D(named: "Scene", bundle: realityKitContentBundle) {
-                        model in model
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 200, height: 200)
-                            .rotation3DEffect(.degrees(50), axis: (x:1, y:0, z:0))
-                            .rotation3DEffect(.degrees(180), axis: (x:0, y:1, z:0))
-                            .phaseAnimator([false, true]) { model, rotationXYZ in
-                                model
-                                    .rotation3DEffect(.degrees(rotationXYZ ? 30:0), axis: (x:5, y:0, z:0))
-                            }
-                        
-                    } placeholder: {
-                        ProgressView()
-                    }
-                    .onTapGesture {
-                        updateViewController(globalState, view: "Floor1_cross", video:"none")
-                        showAnimToggle(globalState)
-                    }
-                    
-                        
-                    Spacer().frame(width: 450)
-                }
-            }
-            
         }
         
         .toolbar {
             ToolbarItemGroup(placement: .bottomOrnament) {
-                
-                Text("這裡是數位系的教室。有AR和VR的未來互動教室，\n也有專屬於Mac系統的電腦教室。")
-                    .font(.largeTitle)
-                    .padding()
+                HStack {
+                    
+                    Text("這裡是數位系的教室。有AR和VR的未來互動教室，\n也有專屬於Mac系統的電腦教室。")
+                        .font(.largeTitle)
+                        .padding()
+                    
+                    Button {
+                        updateViewController(globalState, view: "FloorG", video: "none")
+                    } label: {
+                        Text("返回前一處")
+                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    }
+                    .background(Color.gray)
+                    .cornerRadius(32)
+                }
             }
         }
     }

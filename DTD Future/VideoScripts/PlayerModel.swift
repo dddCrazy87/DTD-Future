@@ -154,7 +154,7 @@ import Observation
     
     func play() {
         player.play()
-        player.rate = 1.5
+        player.rate = 1
     }
 
     func pause() {

@@ -71,41 +71,25 @@ struct FloorGView: View {
                     }
                 }
             }
-            
-            VStack {
-                Spacer().frame(height: 400)
-                HStack {
-                    
-                    Spacer().frame(width: 500)
-                    
-                    Model3D(named: "Scene", bundle: realityKitContentBundle) {
-                        model in model
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 200, height: 200)
-                            .rotation3DEffect(.degrees(40), axis: (x:1, y:0, z:0))
-                            .rotation3DEffect(.degrees(-110), axis: (x:0, y:1, z:0))
-                            .phaseAnimator([false, true]) { model, rotationXYZ in
-                                model
-                                    .rotation3DEffect(.degrees(rotationXYZ ? 30:0), axis: (x:5, y:0, z:0))
-                            }
-                        
-                    } placeholder: {
-                        ProgressView()
-                    }
-                    .onTapGesture {
-                        updateViewController(globalState, view: "Door", video:"none")
-                        showAnimToggle(globalState)
-                    }
-                }
-            }
+           
         }
         .toolbar {
             ToolbarItemGroup(placement: .bottomOrnament) {
-                
-                Text("這裡是介於地下一樓及一樓之間的「Ｇ樓」\n，也可以稱作電梯平台")
-                    .font(.largeTitle)
-                    .padding()
+                HStack {
+                    
+                    Text("這裡是介於地下一樓及一樓之間的「Ｇ樓」\n，也可以稱作電梯平台")
+                        .font(.largeTitle)
+                        .padding()
+                    
+                    Button {
+                        updateViewController(globalState, view: "Door", video: "none")
+                    } label: {
+                        Text("返回前一處")
+                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    }
+                    .background(Color.gray)
+                    .cornerRadius(32)
+                }
             }
         }
     }

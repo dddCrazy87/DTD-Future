@@ -34,7 +34,11 @@ struct ContentView: View {
             
         }
         else {
+            
             switch globalState.viewController {
+            case "StartView":
+                StartView()
+                    .environmentObject(globalState)
             case "Door":
                 DoorView()
                     .environmentObject(globalState)
@@ -71,10 +75,15 @@ struct ContentView: View {
             case "Floor1_car_game":
                 Floor1_car_game()
                     .environmentObject(globalState)
+            case "bad_end":
+                bad_end()
+                    .environmentObject(globalState)
+            case "good_end":
+                good_end()
+                    .environmentObject(globalState)
             default:
                 Text(globalState.viewController)
             }
-            
         }
     }
 }

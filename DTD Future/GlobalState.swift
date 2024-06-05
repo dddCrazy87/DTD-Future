@@ -5,7 +5,7 @@ import SwiftUI
 
 class GlobalState: ObservableObject {
     static let shared = GlobalState()
-    @Published var viewController = "Door"
+    @Published var viewController = "StartView"
     @Published var videoName = ""
     @Published var showAnim = false
     @Published var play1Xspeed = false

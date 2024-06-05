@@ -19,48 +19,30 @@ struct Floor1_car_game: View {
             Image("Floor1_car game")
                 .resizable()
             
-            VStack {
-                Spacer().frame(height: 400)
-                HStack {
-                    
-                    Spacer().frame(width: 450)
-                    
-                    Model3D(named: "Scene", bundle: realityKitContentBundle) {
-                        model in model
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 200, height: 200)
-                            .rotation3DEffect(.degrees(50), axis: (x:1, y:0, z:0))
-                            .rotation3DEffect(.degrees(170), axis: (x:0, y:1, z:0))
-                            .phaseAnimator([false, true]) { model, rotationXYZ in
-                                model
-                                    .rotation3DEffect(.degrees(rotationXYZ ? 30:0), axis: (x:5, y:0, z:0))
-                            }
-                        
-                    } placeholder: {
-                        ProgressView()
-                    }
-                    .onTapGesture {
-                        updateViewController(globalState, view: "Floor1_drawing wall", video:"none")
-                        showAnimToggle(globalState)
-                    }
-                    
-                    
-                    
-                }
-            }
         }
         .toolbar {
             ToolbarItemGroup(placement: .bottomOrnament) {
                 
-                Text("這是一個電動玩具，坐上去會發生什麼事呢？")
+                Text("據說這是好幾屆前的學長姐做的遊戲機，要不要玩玩看呢？")
                     .font(.largeTitle)
                     .padding()
                 
                 Button {
-                    updateViewController(globalState, view: "Door", video:"none")
+                    updateViewController(globalState, view: "bad_end", video:"bad_end")
+                    globalState.play1Xspeed = true
+                    showAnimToggle(globalState)
                 } label: {
-                    Text("回到門外")
+                    Text("要")
+                        .font(.largeTitle)
+                        .padding()
+                }
+                
+                Button {
+                    updateViewController(globalState, view: "good_end", video:"good_end")
+                    globalState.play1Xspeed = true
+                    showAnimToggle(globalState)
+                } label: {
+                    Text("不要")
                         .font(.largeTitle)
                         .padding()
                 }

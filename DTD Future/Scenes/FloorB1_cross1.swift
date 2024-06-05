@@ -73,42 +73,26 @@ struct FloorB1_cross1: View {
                 }
             }
             
-            VStack {
-                Spacer().frame(height: 500)
-                HStack {
-                    
-                    Model3D(named: "Scene", bundle: realityKitContentBundle) {
-                        model in model
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 200, height: 200)
-                            .rotation3DEffect(.degrees(60), axis: (x:1, y:0, z:0))
-                            .rotation3DEffect(.degrees(200), axis: (x:0, y:1, z:0))
-                            .phaseAnimator([false, true]) { model, rotationXYZ in
-                                model
-                                    .rotation3DEffect(.degrees(rotationXYZ ? 30:0), axis: (x:5, y:0, z:0))
-                            }
-                        
-                    } placeholder: {
-                        ProgressView()
-                    }
-                    .onTapGesture {
-                        updateViewController(globalState, view: "FloorB1_hobby", video:"none")
-                        showAnimToggle(globalState)
-                    }
-                    
-                    Spacer().frame(width: 500)
-                }
-            }
-            
         }
         
         .toolbar {
             ToolbarItemGroup(placement: .bottomOrnament) {
                 
-                Text("從地下一樓的電梯走出去後，\n可以看到第一個岔路")
-                    .font(.largeTitle)
-                    .padding()
+                HStack {
+                    
+                    Text("從地下一樓的電梯走出去後，\n可以看到第一個岔路")
+                        .font(.largeTitle)
+                        .padding()
+                    
+                    Button {
+                        updateViewController(globalState, view: "FloorB1_hobby", video: "none")
+                    } label: {
+                        Text("返回前一處")
+                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    }
+                    .background(Color.gray)
+                    .cornerRadius(32)
+                }
             }
         }
     }

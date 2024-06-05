@@ -45,6 +45,11 @@
 		424531A82C0B647F00B47561 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424531A72C0B647F00B47561 /* PlayerView.swift */; };
 		424531AA2C0B64B900B47561 /* VideoWatchingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424531A92C0B64B900B47561 /* VideoWatchingActivity.swift */; };
 		424531AC2C0B64CE00B47561 /* VideoWatchingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424531AB2C0B64CE00B47561 /* VideoWatchingCoordinator.swift */; };
+		42986C8A2C0EF61C00FF9190 /* good_end.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42986C882C0EF61C00FF9190 /* good_end.mp4 */; };
+		42E725472C10508F003E478C /* good_end.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E725462C10508F003E478C /* good_end.swift */; };
+		42E725492C10518B003E478C /* bad_end.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E725482C10518B003E478C /* bad_end.swift */; };
+		42E7254B2C105201003E478C /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E7254A2C105201003E478C /* StartView.swift */; };
+		42E7254D2C10563C003E478C /* bad_end.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42E7254C2C10563C003E478C /* bad_end.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +104,11 @@
 		424531A72C0B647F00B47561 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		424531A92C0B64B900B47561 /* VideoWatchingActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWatchingActivity.swift; sourceTree = "<group>"; };
 		424531AB2C0B64CE00B47561 /* VideoWatchingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWatchingCoordinator.swift; sourceTree = "<group>"; };
+		42986C882C0EF61C00FF9190 /* good_end.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = good_end.mp4; sourceTree = "<group>"; };
+		42E725462C10508F003E478C /* good_end.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = good_end.swift; sourceTree = "<group>"; };
+		42E725482C10518B003E478C /* bad_end.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bad_end.swift; sourceTree = "<group>"; };
+		42E7254A2C105201003E478C /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		42E7254C2C10563C003E478C /* bad_end.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bad_end.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,8 @@
 		42051C1C2C0B66C9006B5BB4 /* VideoDatas */ = {
 			isa = PBXGroup;
 			children = (
+				42E7254C2C10563C003E478C /* bad_end.mp4 */,
+				42986C882C0EF61C00FF9190 /* good_end.mp4 */,
 				42051C452C0BA0FB006B5BB4 /* FloorB1_cross1 to fail door.mp4 */,
 				42051C302C0B94A9006B5BB4 /* Door to FloorG.mp4 */,
 				42051C2F2C0B94A9006B5BB4 /* Floor1 cross to classrooms.mp4 */,
@@ -155,6 +167,9 @@
 				42051C532C0BA99E006B5BB4 /* Floor1_classrooms.swift */,
 				42051C572C0BAA5F006B5BB4 /* Floor1_drawing_wall.swift */,
 				42051C552C0BAA30006B5BB4 /* Floor1_car_game.swift */,
+				42E725462C10508F003E478C /* good_end.swift */,
+				42E725482C10518B003E478C /* bad_end.swift */,
+				42E7254A2C105201003E478C /* StartView.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -323,11 +338,13 @@
 				42051C3F2C0B94AB006B5BB4 /* Floor1 drawing to car game.mp4 in Resources */,
 				420A7E952C0867EA00527A30 /* Preview Assets.xcassets in Resources */,
 				42051C382C0B94AB006B5BB4 /* FloorG to FloorB1.mp4 in Resources */,
+				42E7254D2C10563C003E478C /* bad_end.mp4 in Resources */,
 				42051C3E2C0B94AB006B5BB4 /* FloorB1_cross1 to cross2.mp4 in Resources */,
 				420A7E922C0867EA00527A30 /* Assets.xcassets in Resources */,
 				42051C372C0B94AB006B5BB4 /* FloorB1 to FloorG.mp4 in Resources */,
 				42051C392C0B94AB006B5BB4 /* FloorB1_Cross2 to right.mp4 in Resources */,
 				42051C3A2C0B94AB006B5BB4 /* Floor1_classroom to drawing wall.mp4 in Resources */,
+				42986C8A2C0EF61C00FF9190 /* good_end.mp4 in Resources */,
 				42051C422C0B94AB006B5BB4 /* FloorB1_hobby to Cross1.mp4 in Resources */,
 				42051C402C0B94AB006B5BB4 /* FloorB1_fail.mp4 in Resources */,
 			);
@@ -350,6 +367,8 @@
 				424531A62C0B645600B47561 /* PlayerModel.swift in Sources */,
 				42051C4C2C0BA4FF006B5BB4 /* FloorB1_cross2.swift in Sources */,
 				42051C562C0BAA30006B5BB4 /* Floor1_car_game.swift in Sources */,
+				42E7254B2C105201003E478C /* StartView.swift in Sources */,
+				42E725492C10518B003E478C /* bad_end.swift in Sources */,
 				42051C4E2C0BA586006B5BB4 /* FloorB1_cross2_right.swift in Sources */,
 				424531AC2C0B64CE00B47561 /* VideoWatchingCoordinator.swift in Sources */,
 				42051C442C0B9EA0006B5BB4 /* FloorB1_hobby.swift in Sources */,
@@ -359,6 +378,7 @@
 				42051C482C0BA12C006B5BB4 /* FloorB1_cross1.swift in Sources */,
 				42051C522C0BA8ED006B5BB4 /* Floor1_cross.swift in Sources */,
 				42051C262C0B79EC006B5BB4 /* DoorView.swift in Sources */,
+				42E725472C10508F003E478C /* good_end.swift in Sources */,
 				42051C542C0BA99E006B5BB4 /* Floor1_classrooms.swift in Sources */,
 				42051C582C0BAA5F006B5BB4 /* Floor1_drawing_wall.swift in Sources */,
 				42051C4A2C0BA2B0006B5BB4 /* FloorB1_fail_door.swift in Sources */,

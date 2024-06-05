@@ -47,7 +47,7 @@ struct DoorView: View {
         .toolbar {
             ToolbarItemGroup(placement: .bottomOrnament) {
                 
-                Text("看似小小的側門，其實是創意館的大門！\n數位系的大家會從這裡進入創意館...")
+                Text("看似小小的側門，其實是創意館的大門！\n數位系的大家會從這裡進入創意館")
                     .font(.largeTitle)
                     .padding()
             }
